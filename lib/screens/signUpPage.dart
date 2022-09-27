@@ -71,19 +71,32 @@ class _signUpPageState extends State<signUpPage> {
               child: Text("Forgot Your Password?", style: TextStyle(color: myColor.C_53E88B),),
             ),
             SizedBox(height: 32,),
-             Container(
-                    width: 157,
-                    height: 57,
-                    decoration: BoxDecoration(
-                       color: myColor.C_15BE77,
-                      borderRadius: BorderRadius.all(Radius.circular(15)),
-                      gradient: LinearGradient(colors: [myColor.C_53E88B,myColor.C_15BE77]),
+              Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  InkWell(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>signUpPage()));
+                    },
+                    child: Container(
+                      width: 157,
+                      height: 57,
+                      decoration: BoxDecoration(
+                         color: myColor.C_15BE77,
+                        borderRadius: BorderRadius.all(Radius.circular(15)),
+                        gradient: LinearGradient(colors: [myColor.C_53E88B,myColor.C_15BE77]),
+                      ),
+                      child: Center(child: Text("Next",style: Mystyle.BentonSansBold700.copyWith(color: myColor.C_FEFEFF,fontSize:16),)),
                     ),
-                    child: Center(child: Text("Login",style: Mystyle.BentonSansBold700.copyWith(color: myColor.C_FEFEFF,fontSize:16),)),
                   ),
+              SizedBox(height: 36,),
           ],
         ),
+      )
+          ],
       ),
+    )
     );
   }
 }
