@@ -6,6 +6,7 @@ import 'package:lesson_three/screens/mehtodPage.dart';
 import 'package:lesson_three/screens/onBoardingPage.dart';
 import 'package:lesson_three/screens/onBoardingPage2.dart';
 import 'package:lesson_three/screens/onBoardingPage3.dart';
+import 'package:lesson_three/screens/otherPage.dart';
 import 'package:lesson_three/screens/signUpPage.dart';
 import 'package:lesson_three/screens/uploadPage.dart';
 import 'package:lesson_three/screens/uploadPhotoPage.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'BentonSansBold',
       ),
       debugShowCheckedModeBanner: false,
-      home: onBoardingPage(),
+      home: otherPage(),
     );
   }
 }
