@@ -15,7 +15,13 @@ class _onBoardingPageState extends State<onBoardingPage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Future.delayed(Duration(seconds: 2) , ()=>  onBoardingPage_2());
+    onNextPage();
+  }
+
+  onNextPage(){
+    Future.delayed(Duration(seconds: 3),(){
+      Navigator.push(context, MaterialPageRoute(builder: (context)=>onBoardingPage_2()));
+    });
   }
 
 

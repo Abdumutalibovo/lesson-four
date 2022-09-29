@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'BentonSansBold',
       ),
       debugShowCheckedModeBanner: false,
-      home: otherPage(),
+      home: onBoardingPage(),
     );
   }
 }
