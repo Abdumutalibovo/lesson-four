@@ -5,6 +5,9 @@ class MyImages{
   static const icon_location="assets/icons/location.svg";
   static const facebook="assets/icons/facebook.svg";
   static const google="assets/icons/google.svg";
+  static const icon_setting="assets/icons/icon_setting.svg";
+  
+  
   //image
   static const user_image="assets/images/user_image.png";
   static const payoneer_image="assets/images/Payoneer.png";
@@ -21,6 +24,14 @@ class MyImages{
   static const image="assets/images/image.png";
   static const biscuits="assets/images/biscuits.png";
   static const foots="assets/images/foots.png";
+  static const home_background="assets/images/home_background.png";
 
-
+  static const icon_natification="assets/images/natification_icon.png";
+  static const marojni_image="assets/images/morojni.png";
+  static const marojni_background="assets/images/marojni_background.png";
+  static const vegan_image="assets/images/vegan.png";
+  static const healthy_image="assets/images/healthy.png";
+  static const good_food="assets/images/goodFood.png";
+  static const resto="assets/images/smart.png";
+  static const arvuz_imaga="assets/images/imagee.png";
 }

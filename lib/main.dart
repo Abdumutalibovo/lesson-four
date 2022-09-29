@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:lesson_three/screens/ExploreResturantPage.dart';
 import 'package:lesson_three/screens/NatificationPage.dart';
 import 'package:lesson_three/screens/callPage.dart';
+import 'package:lesson_three/screens/exploreMenuPage.dart';
+import 'package:lesson_three/screens/homePage.dart';
 import 'package:lesson_three/screens/lacatioonPage.dart';
 import 'package:lesson_three/screens/mehtodPage.dart';
 import 'package:lesson_three/screens/onBoardingPage.dart';
@@ -23,12 +26,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "MyApp",
+      title: "FirstApp",
       theme: ThemeData(
         fontFamily: 'BentonSansBold',
       ),
       debugShowCheckedModeBanner: false,
-      home: onBoardingPage(),
+      home: exploreMenuPage(),
     );
   }
 }
